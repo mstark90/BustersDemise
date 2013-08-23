@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/generate_reports"
+        android:title="@string/action_generate_reports"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/bluetooth_sync"
+          android:title="@string/action_bluetooth_sync"
+          android:showAsAction="never" />
+</menu>

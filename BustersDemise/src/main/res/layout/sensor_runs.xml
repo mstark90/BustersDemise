@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+            android:id="@+id/runViewer"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+        <ToggleButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textOff="Edit"
+                android:textOn="Done"
+                android:id="@+id/editButton"
+                android:layout_gravity="center_horizontal"/>
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Export"
+                android:id="@+id/exportButton"
+                android:layout_gravity="center_horizontal"/>
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Clear"
+                android:id="@+id/clearButton"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+</LinearLayout>
